@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <meta charset = "utf=8">
+    <head>
+        <title>EasyHOOKAH</title>
+        <link rel="shortcut icon" href="logos/logo2.png" type="image/png">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="slider/chief-slider-with-prefixes.min.css">
+        <script defer src="slider/chief-slider.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const slider = new ChiefSlider('.slider', {
+                    loop: true
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class = "logo">
+                <a href="mainPage.html"><img src=logos/logo.png width="150"></a>
+            </div>
+            <div class = "list">
+                <nav>
+                    <ul class="topmenu">
+                        <li><a href="mainPage.html">Главная</a></li>
+                        <li><a href="hookah.html">Кальяны</a></li>
+                        <li><a href="materialsPage.html" class="down">Расходные материалы</a>
+                            <ul class="submenu">
+                                <li><a href="materialsPage.html#t">Табак</a></li>
+                                <li><a href="materialsPage.html#u">Угли</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="eqpPage.html" class="down">Комплектация</a>
+                            <ul class="submenu">
+                                <li><a href="eqpPage.html#cha">Чаша</a></li>
+                                <li><a href="eqpPage.html#ka">Калауд</a></li>
+                                <li><a href="eqpPage.html#k">Колба</a></li>
+                                <li><a href="eqpPage.html#sh">Шахта</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contactsPage.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class = "wrapper">
+            <div class = "contacts">
+                <div class="row">
+                    <div class="mainPageSlider">
+                        <div class="slider">
+                            <div class="slider__container">
+                                <div class="slider__wrapper">
+                                    <div class="slider__items">
+                                        <div class="slider__item"></div>
+                                        <div class="slider__item"></div>
+                                        <div class="slider__item"></div>
+                                        <div class="slider__item"></div>
+                                        <div class="slider__item"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        <a href="#" class="slider__control" data-slide="prev"></a>
+                        <a href="#" class="slider__control" data-slide="next"></a>
+                        </div>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="main">Забить кальян?</div>
+                    <div class="main">- Просто!</div>
+                </div>
+            </div>
+
+            <div class = "footer">
+                <div class = "blocker">
+                    <ul class="social-icons">
+                        <li><a class="social-icon-discord" href="https://discord.gg/bCBF8U3CWu" title="Discord server" target="_blank" rel="noopener"></a></li>
+                        <li><a class="social-icon-inst" href="https://www.instagram.com/danillli.n" title="Instagram" target="_blank" rel="noopener"></a></li>
+                        <li><a class="social-icon-vk" href="https://vk.com/danilllin" title="VK" target="_blank" rel="noopener"></a></li>
+                        <li><a class="social-icon-telegram" href="https://t.me/danilllin" title="Telegram" target="_blank" rel="noopener"></a></li>
+                        <li><a class="social-icon-gmail" href="mailto:danyasynytsia@gmail.com" title="Gmail" target="_blank" rel="noopener"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
